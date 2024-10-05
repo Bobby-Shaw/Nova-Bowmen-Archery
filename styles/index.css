@@ -22,6 +22,8 @@ a {
     margin: 10px;
 }
 
+/*~~~~~~~~~~~~~~~~~~~~~~~Navigation Bar~~~~~~~~~~~~~~~~~~~~~~~*/
+
 .navigation-bar-div {
     box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.11);
 }
@@ -43,6 +45,9 @@ a {
     color: #28de777c;
 }
 
+
+/*~~~~~~~~~~~~~~~~~~~~~~~Introduction Section~~~~~~~~~~~~~~~~~~~~~~~*/
+
 .intro-div {
     display: flex;
     justify-content: center;
@@ -54,6 +59,9 @@ a {
     font-size: 150px;
     margin: 20px;
 }
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~Brief Introduction Section~~~~~~~~~~~~~~~~~~~~~~~*/
 
 .brief-intro-div {
     width: 700px;
