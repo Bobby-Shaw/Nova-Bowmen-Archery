@@ -41,6 +41,11 @@ a {
     font-size: 25px;
 }
 
+.nav-list img {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .nav-list li:hover {
     color: #28de777c;
 }
