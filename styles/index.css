@@ -3,12 +3,16 @@
 * {
     margin: 0;
     padding: 0;
+    color: #222222;
 }
 
 html {
-    color: #222222;
     font-family: "Open Sans", sans-serif;
     background-color: #fafafa;
+}
+
+.green-text {
+    color: #1bbb60;
 }
 
 a {
@@ -40,7 +44,6 @@ a {
 }
 
 .nav-list li {
-    color: #28de77;
     margin: 20px;
     font-size: 25px;
 }
@@ -54,6 +57,10 @@ a {
     color: #28de777c;
 }
 
+.nav-list a:hover {
+    color: #28de777c;
+}
+
 
 /*~~~~~~~~~~~~~~~~~~~~~~~Introduction Section~~~~~~~~~~~~~~~~~~~~~~~*/
 
@@ -61,7 +68,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 250px;
 }
 
 .intro-div h1 {
@@ -73,7 +80,7 @@ a {
 /*~~~~~~~~~~~~~~~~~~~~~~~Brief Introduction Section~~~~~~~~~~~~~~~~~~~~~~~*/
 
 .brief-intro-div {
-    width: 40%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     font-size: 30px;
@@ -82,7 +89,38 @@ a {
 
 .tagline {
     font-weight: bold;
-    color: #28de77;
     font-size: 20px;
     margin: 20px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~Opening Times Section~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.times-div {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.times-div h3 {
+    font-size: 50px;
+    margin: 20px;
+}
+
+.times-list-div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 50px;
+    width: 600px;
+}
+
+.time-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.green-bg {
+    background-color: rgb(192, 241, 214);
+    color: white;
 }
