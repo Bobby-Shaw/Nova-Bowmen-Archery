@@ -11,8 +11,18 @@ html {
     background-color: #fafafa;
 }
 
+h3 {
+    font-size: 50px;
+    text-align: center;
+}
+
 .green-text {
-    color: #1bbb60;
+    color: #315b3d
+}
+
+ .green-bg {
+    background-color: rgb(214, 243, 227);
+    color: white;
 }
 
 a {
@@ -29,8 +39,7 @@ a {
 /*~~~~~~~~~~~~~~~~~~~~~~~Navigation Bar~~~~~~~~~~~~~~~~~~~~~~~*/
 
 .navigation-bar-div {
-    top: 0px;
-    position: fixed;
+    top: 0;
     background-color: #fafafa;
     width: 100%;
     box-shadow: 0 10px 5px -2px rgba(0, 0, 0, 0.11);
@@ -54,24 +63,32 @@ a {
 }
 
 .nav-list li:hover {
-    color: #28de777c;
+    color: rgba(49, 91, 61, 0.329);
 }
 
 .nav-list a:hover {
-    color: #28de777c;
+    color: rgba(49, 91, 61, 0.329);
 }
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~Introduction Section~~~~~~~~~~~~~~~~~~~~~~~*/
 
 .intro-div {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    margin-top: 250px;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+.intro-div img {
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .intro-div h1 {
+    text-align: center;
     font-size: 150px;
     margin: 20px;
 }
@@ -84,7 +101,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     font-size: 30px;
-    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .tagline {
@@ -96,12 +113,10 @@ a {
 /*~~~~~~~~~~~~~~~~~~~~~~~Opening Times Section~~~~~~~~~~~~~~~~~~~~~~~*/
 
 .times-div {
-    margin-top: 100px;
     text-align: center;
 }
 
 .times-div h3 {
-    font-size: 50px;
     margin: 20px;
 }
 
@@ -118,9 +133,55 @@ a {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    border-radius: 10px;
 }
 
-.green-bg {
-    background-color: rgb(192, 241, 214);
-    color: white;
+
+/*~~~~~~~~~~~~~~~~~~~~~~~Location Section~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.location-div {
+    margin-top: 150px;
+}
+
+.location-div iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~Membership Section~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.membership-div {
+    margin-bottom: 200px;
+}
+
+.membership-div h3 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 150px;
+    margin-bottom: 75px;
+}
+
+.membership-benefits-div {
+    display: flex;
+    justify-content: center;
+}
+
+.benefit {
+    text-align: center;
+    width: 200px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.benefit img {
+    margin-bottom: 20px;
 }
