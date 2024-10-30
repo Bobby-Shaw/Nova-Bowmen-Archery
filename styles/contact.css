@@ -1,0 +1,25 @@
+.email-form {
+    display: block;
+    margin: 100px auto;
+    width: 400px;
+    font-size: 1.2em;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.email-form div {
+    margin: 10px 0;
+}
+
+.email-form input {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 8px 5px;
+}
+
+#name-input {
+    display: flex;
+    justify-content: space-between;
+}

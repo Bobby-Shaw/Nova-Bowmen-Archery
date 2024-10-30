@@ -1,0 +1,31 @@
+.navigation-bar-div {
+    top: 0;
+    background-color: #fafafa;
+    width: 100%;
+    box-shadow: 0 10px 5px -2px rgba(0, 0, 0, 0.11);
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+}
+
+.nav-list li {
+    margin: 20px;
+    font-size: 25px;
+}
+
+.nav-list img {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.nav-list li:hover {
+    color: rgba(49, 91, 61, 0.329);
+}
+
+.nav-list a:hover {
+    color: rgba(49, 91, 61, 0.329);
+}
